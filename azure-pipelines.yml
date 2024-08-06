@@ -8,7 +8,10 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
-  agent.name: my-peronal-agent
+  name: Default
+  demands:
+     - Agent.Name -equals my-peronal-agent
+   
 
 steps:
 - task: Maven@3
