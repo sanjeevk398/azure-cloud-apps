@@ -33,5 +33,5 @@ steps:
     deployToSlotOrASE: true
     ResourceGroupName: 'azure-spring-app-group'
     SlotName: 'production'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/**/spring-app-0.0.1-SNAPSHOT.jar'
     WebConfigParameters: 'java'
