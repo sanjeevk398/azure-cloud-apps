@@ -10,7 +10,7 @@ pool:
   vmImage: ubuntu-latest
   name: Default
   demands:
-     - Agent.Name -equals my-peronal-agent
+     - Agent.Name -equals my_agent_machine
    
 
 steps:
